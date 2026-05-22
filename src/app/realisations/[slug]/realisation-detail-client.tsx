@@ -36,6 +36,9 @@ interface ProjectDataForClient {
   objectifs_affectifs?: string[]
   objectifs_conatifs?: string[]
   preuves?: ProjectEvidence[]
+  survey_stats?: { label: string; value: number }[]
+  survey_respondents?: number
+  newsletter_url?: string
   body: string
 }
 
@@ -350,6 +353,49 @@ export function RealisationDetailClient({
               </ScrollReveal>
             )}
 
+            {/* Newsletter embed */}
+            {project.newsletter_url && (
+              <ScrollReveal delay={0.1}>
+                <div style={{ marginBottom: "4rem" }}>
+                  <SectionLabel>Aperçu de la newsletter</SectionLabel>
+                  <div style={{
+                    border: "1px solid rgba(197,160,89,0.12)",
+                    overflow: "hidden",
+                    position: "relative",
+                  }}>
+                    <iframe
+                      src={project.newsletter_url}
+                      style={{
+                        width: "100%",
+                        height: "900px",
+                        border: "none",
+                        display: "block",
+                      }}
+                      title="Aperçu newsletter"
+                    />
+                  </div>
+                </div>
+              </ScrollReveal>
+            )}
+
+            {/* Statistiques étude consommateurs */}
+            {project.survey_stats && project.survey_stats.length > 0 && (
+              <ScrollReveal delay={0.1}>
+                <div style={{ marginBottom: "4rem" }}>
+                  <SectionLabel>
+                    Étude consommateurs{project.survey_respondents ? ` — ${project.survey_respondents} répondants` : ""}
+                  </SectionLabel>
+                  <LiquidGlass variant="panel" style={{ padding: "2rem" }}>
+                    <div style={{ display: "flex", flexDirection: "column", gap: "1.5rem" }}>
+                      {project.survey_stats.map((stat, i) => (
+                        <SurveyStat key={i} label={stat.label} value={stat.value} index={i} />
+                      ))}
+                    </div>
+                  </LiquidGlass>
+                </div>
+              </ScrollReveal>
+            )}
+
             {/* Preuves */}
             {project.preuves && project.preuves.length > 0 && (
               <ScrollReveal delay={0.1}>
@@ -533,6 +579,50 @@ function InfoItem({ label, value }: { label: string; value: string }) {
       }}>
         {value}
       </p>
+    </div>
+  )
+}
+
+function SurveyStat({ label, value, index }: { label: string; value: number; index: number }) {
+  return (
+    <div>
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: "0.5rem" }}>
+        <span style={{
+          fontFamily: "var(--font-sans)",
+          fontSize: "clamp(0.8rem, 0.95vw, 0.9rem)",
+          color: "rgba(200,220,255,0.6)",
+        }}>
+          {label}
+        </span>
+        <span style={{
+          fontFamily: "var(--font-sans)",
+          fontSize: "clamp(0.9rem, 1.1vw, 1rem)",
+          color: "rgba(197,160,89,0.9)",
+          fontVariantNumeric: "tabular-nums",
+          minWidth: "3.5rem",
+          textAlign: "right",
+        }}>
+          {value}%
+        </span>
+      </div>
+      <div style={{
+        height: "3px",
+        background: "rgba(200,220,255,0.06)",
+        borderRadius: "999px",
+        overflow: "hidden",
+      }}>
+        <motion.div
+          initial={{ width: 0 }}
+          whileInView={{ width: `${value}%` }}
+          viewport={{ once: true }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: index * 0.08 }}
+          style={{
+            height: "100%",
+            borderRadius: "999px",
+            background: `linear-gradient(90deg, rgba(197,160,89,0.9) 0%, rgba(197,160,89,0.35) 100%)`,
+          }}
+        />
+      </div>
     </div>
   )
 }

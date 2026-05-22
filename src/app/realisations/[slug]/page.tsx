@@ -70,6 +70,9 @@ export default async function ProjectPage({ params }: ProjectPageProps) {
         objectifs_affectifs: project.objectifs_affectifs,
         objectifs_conatifs: project.objectifs_conatifs,
         preuves: project.preuves,
+        survey_stats: project.survey_stats,
+        survey_respondents: project.survey_respondents,
+        newsletter_url: project.newsletter_url,
         body: project.body,
       }}
       previousProject={previousProject ? { slug: previousProject.slug, title: previousProject.title } : null}

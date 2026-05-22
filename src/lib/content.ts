@@ -40,6 +40,9 @@ export interface Project {
   objectifs_affectifs?: string[]
   objectifs_conatifs?: string[]
   preuves?: ProjectEvidence[]
+  survey_stats?: { label: string; value: number }[]
+  survey_respondents?: number
+  newsletter_url?: string
   excerpt: string
   body: string
   published: boolean

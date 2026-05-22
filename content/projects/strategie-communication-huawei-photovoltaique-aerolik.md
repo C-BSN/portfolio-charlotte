@@ -15,7 +15,7 @@ tools:
   - Google Forms
   - Outlook
   - Microsoft Teams
-featured_image: /images/projects/huawei-photovoltaique/IMG_1862.PNG
+featured_image: /images/projects/huawei-photovoltaique/huawai.jpg
 carousel:
   - /images/projects/huawei-photovoltaique/Caroussel/IMG_2038.PNG
   - /images/projects/huawei-photovoltaique/Caroussel/IMG_2039.PNG
