@@ -18,6 +18,7 @@ duration: ""
 status: Terminé
 pdf_portfolio: ""
 project_url: ""
+video_url: https://youtube.com/shorts/5P9i6j9ogmQ?si=19DfIY81zZx1VkKr
 cibles: "Jeunes réunionnais de 15 à 30 ans, actifs sur les réseaux sociaux, sensibles aux valeurs citoyennes et à l'engagement collectif."
 strategie_creative: "Produire une vidéo courte et impactante pour les réseaux sociaux, capable de transmettre la valeur de fraternité de manière authentique et émotionnelle, adaptée aux codes du format court (Reels / Shorts)."
 objectifs_cognitifs:
@@ -35,7 +36,7 @@ objectifs_conatifs:
 preuves:
   - type: Video
     description: Vidéo courte réseaux sociaux — La fraternité (CRIJ Réunion)
-    youtube_url: https://youtube.com/shorts/5P9i6j9ogmQ
+    youtube_url: https://youtube.com/shorts/5P9i6j9ogmQ?si=19DfIY81zZx1VkKr
 excerpt: Vidéo courte réseaux sociaux réalisée pour le CRIJ Réunion, mettant en avant la valeur de fraternité à destination d'un public jeune et connecté.
 published: true
 ---
