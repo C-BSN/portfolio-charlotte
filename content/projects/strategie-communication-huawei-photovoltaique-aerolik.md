@@ -17,15 +17,15 @@ tools:
   - Microsoft Teams
 featured_image: /images/projects/huawei-photovoltaique/huawai.jpg
 carousel:
-  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2038.PNG
-  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2039.PNG
-  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2040.PNG
-  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2041.PNG
-  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2042.PNG
+  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2038.png
+  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2039.png
+  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2040.png
+  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2041.png
+  - /images/projects/huawei-photovoltaique/Caroussel/IMG_2042.png
 gallery:
-  - - /images/projects/huawei-photovoltaique/IMG_1862.PNG
-    - /images/projects/huawei-photovoltaique/IMG_2119.PNG
-    - /images/projects/huawei-photovoltaique/IMG_2120.PNG
+  - - /images/projects/huawei-photovoltaique/IMG_1862.png
+    - /images/projects/huawei-photovoltaique/IMG_2119.png
+    - /images/projects/huawei-photovoltaique/IMG_2120.png
 video_url: ""
 duration: 2 mois
 status: Terminé
@@ -46,8 +46,29 @@ objectifs_conatifs:
   - Favoriser les échanges commerciaux autour de la nouvelle gamme
 preuves:
   - type: Image
-    description: Visuels promotionnels pour réseaux sociaux et flyers
-    file: null
+    description: Preuve 1
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3447.png
+  - type: Image
+    description: Preuve 2
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3448.png
+  - type: Image
+    description: Preuve 3
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3449.png
+  - type: Image
+    description: Preuve 4
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3450.png
+  - type: Image
+    description: Preuve 5
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3451.png
+  - type: Image
+    description: Preuve 6
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3452.png
+  - type: Image
+    description: Preuve 7
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3453.png
+  - type: Image
+    description: Preuve 8
+    file: /images/projects/huawei-photovoltaique/Preuve/IMG_3454.png
 excerpt: Conception d'une stratégie de communication et de supports promotionnels pour le lancement de la gamme photovoltaïque Huawei lors d'un événement professionnel organisé par Aérolik.
 published: true
 ---

@@ -46,6 +46,15 @@ preuves:
   - type: Video
     description: Vidéo YouTube récapitulative de la cérémonie (2 min 40)
     youtube_url: https://youtu.be/J-NXdpMYKA8
+  - type: Image
+    description: Preuve 1
+    file: /images/projects/egc/IMG_2547.png
+  - type: Image
+    description: Preuve 2
+    file: /images/projects/egc/IMG_2548.png
+  - type: Image
+    description: Preuve 3
+    file: /images/projects/egc/IMG_2549.png
 published: true
 ---
 ## Fait principal

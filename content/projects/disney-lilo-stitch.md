@@ -13,14 +13,13 @@ project_type:
 tools:
   - Adobe Photoshop
   - Adobe Illustrator
-featured_image: /images/projects/disney/cover.jpg
+featured_image: /images/projects/Disney/4x3.jpg
 gallery:
-  - - /images/projects/disney/visuel1.jpg
-    - /images/projects/disney/visuel2.jpg
-    - /images/projects/disney/visuel3.jpg
+  - - /images/projects/Disney/4x3.jpg
+    - /images/projects/Disney/Lilo & Stitch.jpg
 duration: 2 mois
 status: Terminé
-pdf_portfolio: ""
+pdf_portfolio: /images/projects/Disney/Présentation Lilo & Stitch.pdf
 project_url: ""
 cibles: "Adolescents de 13 à 18 ans, fans de Stitch, actifs sur les réseaux sociaux et attirés par les sorties partagées et immersives. Public nostalgique et connecté, sensible aux expériences événementielles."
 strategie_creative: "Transformer une simple ressortie cinéma en événement Disney attractif et mémorable en activant la nostalgie, en créant une expérience immersive sur site et en prolongeant l'engagement via des dispositifs digitaux."
@@ -51,7 +50,16 @@ survey_stats:
     value: 61
   - label: "Préfèrent le samedi en soirée"
     value: 78
-preuves: []
+preuves:
+  - type: PDF
+    description: Présentation Lilo & Stitch
+    pdf: /images/projects/Disney/Présentation Lilo & Stitch.pdf
+  - type: PDF
+    description: Flyer Stitch
+    pdf: /images/projects/Disney/Flyer stitch.pdf
+  - type: PDF
+    description: Diapo 100 ans de Disney
+    pdf: /images/projects/Disney/Diapo 100 ans de Disney.pdf
 excerpt: Campagne événementielle conçue en binôme pour transformer la ressortie de Lilo & Stitch en expérience immersive et partageable à l'occasion des 100 ans de Disney.
 published: true
 ---
