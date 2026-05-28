@@ -1,4 +1,7 @@
 import { NextRequest, NextResponse } from "next/server"
+import { Resend } from "resend"
+
+const resend = new Resend(process.env.RESEND_API_KEY)
 
 export async function POST(request: NextRequest) {
   const { name, email, message } = await request.json()
@@ -7,9 +10,17 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Champs manquants" }, { status: 400 })
   }
 
-  // Pour activer l'envoi d'email, ajouter CONTACT_EMAIL dans les variables d'environnement
-  // et configurer un service d'envoi (ex: Resend, Brevo, Nodemailer)
-  console.log("Nouveau message de contact:", { name, email, message })
+  const { error } = await resend.emails.send({
+    from: "Portfolio Charlotte <onboarding@resend.dev>",
+    to: "crescence.charlotte@gmail.com",
+    replyTo: email,
+    subject: `Nouveau message de ${name}`,
+    text: `Nom : ${name}\nEmail : ${email}\n\nMessage :\n${message}`,
+  })
+
+  if (error) {
+    return NextResponse.json({ error: "Erreur d'envoi" }, { status: 500 })
+  }
 
   return NextResponse.json({ success: true })
 }
