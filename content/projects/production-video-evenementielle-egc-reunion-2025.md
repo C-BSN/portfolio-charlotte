@@ -167,6 +167,5 @@ La vidéo a été finalisée et publiée dans les délais impartis. Elle a été
 
 ### Axes d'amélioration identifiés
 
-* L'ajout d'un **micro externe** aurait permis de capter des témoignages audio de meilleure qualité.
 * Une **version courte (30-60 secondes)** spécifiquement formatée pour les stories Instagram/Facebook aurait pu compléter le livrable principal.
 * Prévoir une **captation à deux smartphones** pour varier les angles simultanément lors des moments clés.
