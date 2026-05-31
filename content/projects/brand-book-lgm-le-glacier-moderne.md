@@ -25,7 +25,7 @@ gallery:
   - []
 duration: 3 semaines
 status: Terminé
-pdf_portfolio: https://res.cloudinary.com/dyydosgxb/image/upload/v1775125960/Brand_Book_e2rp6y.pdf
+pdf_portfolio: https://drive.google.com/file/d/1fYNKkNPTTsOVhiT8U7qO_l_QXIUUhY7J/preview
 project_url: ""
 cibles: Jeunes urbains (18–35 ans), consommateurs de produits food esthétiques
   et instagramables, familles modernes et touristes.
@@ -51,7 +51,7 @@ objectifs_conatifs:
 preuves:
   - type: PDF
     description: BRANDBOOK
-    pdf: https://res.cloudinary.com/dyydosgxb/image/upload/v1775125960/Brand_Book_e2rp6y.pdf
+    pdf: https://drive.google.com/file/d/1fYNKkNPTTsOVhiT8U7qO_l_QXIUUhY7J/preview
 excerpt: Conception d'un brand book complet pour repositionner LGM en marque
   moderne, créative et instagramable à La Réunion.
 published: true
