@@ -13,7 +13,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/graines-de-cerises/IMG_1150.JPG
 gallery: []
 duration: ""
 status: Terminé

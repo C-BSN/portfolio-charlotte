@@ -11,7 +11,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/edn/7B55988C-B555-40FE-8B4F-83648ACA7414.png
 gallery: []
 duration: ""
 status: Terminé

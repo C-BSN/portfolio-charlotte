@@ -11,7 +11,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/commercants-saint-pierre/AECC09E7-4079-4BEC-925C-FF93F4E339FD.png
 gallery: []
 duration: ""
 status: Terminé

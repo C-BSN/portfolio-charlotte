@@ -12,7 +12,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/crij/45115FDF-FC49-4766-94E8-5EEA82271698.png
 gallery: []
 duration: ""
 status: Terminé

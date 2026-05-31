@@ -11,7 +11,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/commercants-saint-paul/C0F6336F-4174-4521-9B1B-BADFA609FB09.png
 gallery: []
 duration: ""
 status: Terminé

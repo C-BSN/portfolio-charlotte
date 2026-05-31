@@ -11,7 +11,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: ""
+featured_image: /images/projects/commercants-saint-andre/3A6608C0-3E8F-4447-A459-A29BC5012652.png
 gallery: []
 duration: ""
 status: Terminé

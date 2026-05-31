@@ -13,7 +13,7 @@ project_type:
 tools:
   - CANVA
   - Adobe Photoshop
-featured_image: ""
+featured_image: /images/projects/nespresso/Gemini_Generated_Image_tc3lnotc3lnotc3l.png
 gallery: []
 duration: 1 semaine
 status: Terminé
