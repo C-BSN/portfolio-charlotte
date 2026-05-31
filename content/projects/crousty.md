@@ -47,7 +47,10 @@ objectifs_conatifs:
   - Encourager le passage à l'achat rapide
   - Favoriser le partage sur les réseaux sociaux
   - Générer du trafic en point de vente ou en ligne
-preuves: []
+preuves:
+  - type: Video
+    description: Vidéo promotionnelle C'Crousty
+    youtube_url: https://youtube.com/shorts/RKAki2xdoHo?si=T48g6Y2E0qbzTj71
 excerpt: Création complète d'une marque de fast-food avec identité visuelle,
   stratégie de communication et contenus promotionnels adaptés à une cible jeune
   et urbaine.

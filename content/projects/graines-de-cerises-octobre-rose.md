@@ -13,7 +13,7 @@ project_type:
 tools:
   - CapCut
   - Smartphone
-featured_image: /images/projects/graines-de-cerises/IMG_1150.JPG
+featured_image: /images/projects/octobre-rose/4341D1BB-B810-4D31-8B0F-D665F845FEA6.png
 gallery: []
 duration: ""
 status: Terminé
