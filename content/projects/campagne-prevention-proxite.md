@@ -25,6 +25,7 @@ gallery:
 duration: 1 mois
 status: Terminé
 project_url: ""
+video_url: https://youtube.com/shorts/rDRn3qkE-xY?si=g7vjMNp0wbGDQEmW
 cibles: "Jeunes de 15 à 25 ans : collégiens, lycéens et étudiants exposés aux comportements à risque (alcool, usage du téléphone au volant, addiction aux écrans)."
 strategie_creative: Concevoir une campagne de sensibilisation impactante et accessible destinée aux jeunes, en combinant affichage urbain et contenus digitaux. La stratégie repose sur des visuels percutants, des slogans courts et mémorisables, et une diffusion multicanale adaptée aux habitudes de consommation médiatique de la cible.
 objectifs_cognitifs:
@@ -40,6 +41,9 @@ objectifs_conatifs:
   - Réduire la banalisation de l'alcool et des distractions au volant
   - Favoriser le partage et la diffusion des messages de prévention sur les réseaux sociaux
 preuves:
+  - type: Video
+    description: Réel Instagram — Campagne Proxité
+    youtube_url: https://youtube.com/shorts/rDRn3qkE-xY?si=g7vjMNp0wbGDQEmW
   - type: PDF
     description: Dossier atelier de Sensibilisation des Addictions
     pdf: "/images/projects/Addiction/Dossier atelier de Sensibilisation des Addictions.pdf.pdf"
