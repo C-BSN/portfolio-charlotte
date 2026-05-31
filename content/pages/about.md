@@ -1,5 +1,6 @@
 ---
 title: "À propos de moi"
+profile_image: /images/IMG_1687.jpg
 skills:
   - "Photoshop"
   - "Illustrator"
