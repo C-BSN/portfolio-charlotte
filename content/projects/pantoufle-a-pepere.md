@@ -26,7 +26,7 @@ gallery:
     - https://res.cloudinary.com/dyydosgxb/image/upload/v1775160066/Carrousel_Instagram_pantoufle_a_pe%CC%81pe%CC%80re.zip_-_4_gn1qmn.png
 duration: 2 semaines
 status: Terminé
-pdf_portfolio: /files/pantoufle-pepere.pdf
+pdf_portfolio: ""
 project_url: ""
 cibles: Jeunes adultes urbains (25–40 ans), CSP+, sensibles au design, au
   confort et au made in France.
@@ -45,10 +45,7 @@ objectifs_conatifs:
   - Inciter à visiter le site web
   - Encourager l'achat
   - Favoriser le partage sur les réseaux sociaux
-preuves:
-  - type: PDF
-    pdf: /files/pantoufle-pepere.pdf
-    description: Dossier de campagne + visuels
+preuves: []
 excerpt: Campagne social media basée sur une copy strategy forte visant à
   transformer l'image de la pantoufle en objet lifestyle premium.
 published: true
