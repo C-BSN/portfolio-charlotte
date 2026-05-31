@@ -1,5 +1,5 @@
 ---
-ordre: 5
+ordre: 3
 title: '"Un verre de trop ?" — Campagne de prévention pour l''association Proxité'
 date: 2025-02-24T00:00:00.000Z
 annonceur: Association Proxité
