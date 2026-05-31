@@ -14,7 +14,19 @@ tools:
   - Canva
   - Adobe Express
 featured_image: /images/projects/salon-de-la-maison-aerolik/IMG_3319.png
-gallery: []
+gallery:
+  - - /images/projects/salon-de-la-maison-aerolik/IMG_2659.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3148.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3254.jpeg
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3255.jpeg
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3285.jpeg
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3319.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3492.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3493.jpeg
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3494.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3495.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3496.png
+    - /images/projects/salon-de-la-maison-aerolik/IMG_3497.png
 duration: ""
 status: Terminé
 pdf_portfolio: ""
