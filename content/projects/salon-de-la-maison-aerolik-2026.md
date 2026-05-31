@@ -13,7 +13,7 @@ project_type:
 tools:
   - Canva
   - Adobe Express
-featured_image: ""
+featured_image: /images/projects/salon-de-la-maison-aerolik/IMG_3319.png
 gallery: []
 duration: ""
 status: Terminé
